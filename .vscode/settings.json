@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/praticando/praticando.html"
+    "livePreview.defaultPreviewPath": "/praticando/praticando.html",
+    "liveServer.settings.port": 5501
 }
