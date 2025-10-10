@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/praticando/form.html?serverWindowId=d6f33d80-1372-43df-b6df-b1ce66d832a6",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/praticando/form.html?serverWindowId=d6f33d80-1372-43df-b6df-b1ce66d832a6"
+        }
+    ]
+}
