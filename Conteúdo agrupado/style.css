@@ -72,6 +72,7 @@ background-color: #555;
 }
 
 .form-container{
+    align-self: center;
     justify-self: center;
     background-color: white;
     padding: 30px;
