@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botões e Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>    
+    <header class="cabecalho">        
+    <nav class="menu-navegacao">
+        <a href="index.html"><img src="b.png" class="Logo">Meu Site Incrível</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="tabela.html">Tabela</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="form.html">Formulario</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+
+    <div class="form-container">
+        <h2>Fale Conosco </h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="btn btn-principal">Enviar</button>
+                <button type="reset" class="btn btn-secundario">Limpar</button>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer class="rodape">
+        <p>© 2024 Meu Site Incrível</p>
+    </footer>
+</body>
+</html>
